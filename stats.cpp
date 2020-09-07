@@ -18,7 +18,7 @@ Stats Statistics::ComputeStatistics(const std::vector<float>& numbers) {
 
 float Statistics::Average(const std::vector<float>& numbers) {
     
-    float sum = 0;
+    float sum = 0];
     
     for (int i = 0; i < numbers.size(); i++)
     { sum += numbers[i]; }
@@ -30,7 +30,7 @@ float Statistics::Average(const std::vector<float>& numbers) {
 
 float Statistics::Max(const std::vector<float>& numbers)
 {
-    float max = 0;
+    float max = numbers[0];
     for (int i = 0; i < numbers.size(); i++)
     {
         if (numbers[i] > max)
@@ -41,7 +41,7 @@ float Statistics::Max(const std::vector<float>& numbers)
 
 float Statistics::Min(const std::vector<float>& numbers)
 {
-    float min = 10000000;
+    float min = numbers[0];
     for (int i = 0; i < numbers.size(); i++)
     {
         if (numbers[i] < min)

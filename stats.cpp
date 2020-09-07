@@ -18,7 +18,7 @@ Stats Statistics::ComputeStatistics(const std::vector<float>& numbers) {
 
 float Statistics::Average(const std::vector<float>& numbers) {
     
-    float sum = 0];
+    float sum = 0;
     
     for (int i = 0; i < numbers.size(); i++)
     { sum += numbers[i]; }
